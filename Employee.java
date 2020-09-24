@@ -39,6 +39,8 @@ public class Employee {
 	}
 	empWage =empHours * EMP_RATE_PER_HOUR;
 	System.out.println("Daily Employee Wage: "  +empWage);
+	empWage =empWage*20;
+	System.out.println("Monthly Employee Wage: "  +empWage);
 }
 }
 
