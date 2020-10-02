@@ -13,14 +13,13 @@ public CompanyEmpWage(String company,int EMPLOYEE_WAGE,int WORKING_DAYS,int MaxH
 	this.EMPLOYEE_WAGE=EMPLOYEE_WAGE;
 	this.WORKING_DAYS= WORKING_DAYS;
 	this.MaxHours=MaxHours;
-	
+	totalEmpWage=0;
 }
 public void setTotalEmployeeWage(int totalEmpWage) {
 	this.totalEmpWage=totalEmpWage;
 }
 public String toString() {
-return "Total EmpWage: "+totalEmpWage+", Name of Company :"+company;
-	
+return "Total EmpWage: "+totalEmpWage+", Name of Company :"+company;	
 }
 }
 
